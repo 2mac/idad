@@ -47,7 +47,9 @@ public class MainWindow extends JFrame
     public String getJoke()
     {
         ArrayList<String> jokes = new ArrayList<String>();
-        jokes.add("Hi, user. My name is dad.");
+        jokes.add("Hi, free user. I'm dad.");
+        jokes.add("I don't know. Can you do the thing?");
+        jokes.add("SPORTS!");
 
         return jokes.get(getRandom(0,jokes.size()-1));
     }
