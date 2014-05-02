@@ -17,6 +17,7 @@ public class MainWindow extends JFrame
         setTitle("iDad");
         setLayout(new GridLayout(2,1,5,5));
         setSize(300,200);
+        setPositionRelativeTo(null);
 
         final JTextField text = new JTextField("");
         text.setEditable(false);
